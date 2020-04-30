@@ -4,7 +4,7 @@ const app = require('../app'); //reference to you app.js file
 
 test('Testing jest', () => {
     const sum = (a,b) => a+b
-    expect(sum(2,3)).toBe(6)
+    expect(sum(2,3)).toBe(5)
 })
 
 test('GET / ', (done) => {
