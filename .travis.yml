@@ -1,12 +1,5 @@
-notifications:
-  email:
-    recipients:
-      - andreassujono@gmail.com
-      on_success: change
-      on_failure: always
-
 language: node_js
 node_js:
-- "stable"
+- "10"
 
 
