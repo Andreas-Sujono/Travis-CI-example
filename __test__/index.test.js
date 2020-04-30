@@ -6,11 +6,12 @@ test('Testing jest', () => {
         expect(sum(2, 3)).toBe(5);
 });
 
-const bad=()=>{     return 1}
+const good = () => 1;
 
 test('Testing jest 2', () => {
         const substract = (a, b) => a - b;
         expect(substract(2, 3)).toBe(-1);
+        expect(good()).toBe(1);
 });
 
 test('GET / ', done => {
