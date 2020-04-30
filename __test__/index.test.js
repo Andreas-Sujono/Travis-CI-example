@@ -12,6 +12,10 @@ test('Testing jest 2', () => {
     expect(substract(2,3)).toBe(-1)
 })
 
+test('simulate failure', () => {
+    expect(false).toBe(true)
+})
+
 test('GET / ', (done) => {
     request(app)
         .get('/')
